@@ -15,19 +15,19 @@ function generatePassword() {
   
     passwordCharacters = "";
     newPassword = "";
-      var passwordLength = pwLength(); // Length of Password Requestd
+      var passwordLength = passLength(); // Length of Password Requestd
       var lowerCase = window.confirm("Lowercase Letters?"); // Use Lowercase Letters?
       var upperCase = window.confirm("Uppercase Letters?"); // Use Uppercase Letters?
       var numbers = window.confirm("Numbers?"); // Use Numbers?
     var special = window.confirm("Special Characters?"); // Use Special Characters?
     
-    // If no character options are selected, alert message and begin again.
+    // If no character options are selected, alert message and start over
     if (lowerCase === false && upperCase === false && numbers === false && special === false) {
       window.alert("Please select at least one password criteria.");
       generatePassword();
 }
 
-else { // Build password characters string per requirements.
+else { // Build password characters string as requirements instruct
     if (lowerCase) {
       passwordCharacters = "abcdefghijklmnopqrstuvwxyz";
     }
@@ -50,12 +50,6 @@ else { // Build password characters string per requirements.
 	console.log("Pasword is: " + newPassword);
 	return newPassword;
 }
-
-
-
-
-
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
