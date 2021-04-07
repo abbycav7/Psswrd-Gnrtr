@@ -10,10 +10,13 @@ Overall this was a fun project, even though challenging at most times, I found i
 
 ## Site Location
 
-[Site Location](https://abbycav7.github.io/Challenge-2-Advanced-CSS/.)
+[Site Location](https://abbycav7.github.io/Psswrd-Gnrtr/)
 
 ## Site Image
-![Site Image](./assets/css/images/screenshot1.png)
-![Site Image](./assets/css/images/screenshot2.png)
-![Site Image](./assets/css/images/screenshot3.png)
-![Site Image](./assets/css/images/screenshot4.png)
+![Site Image](./assets/images/passgen-screenshot1.png)
+![Site Image](./assets/images/passgen-screenshot2.png)
+![Site Image](./assets/images/passgen-screenshot3.png)
+![Site Image](./assets/images/passgen-screenshot3-1.png)
+![Site Image](./assets/images/passgen-screenshot4.png)
+![Site Image](./assets/images/passgen-screenshot5.png)
+![Site Image](./assets/images/passgen-screenshot6.png)
